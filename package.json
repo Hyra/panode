@@ -1,0 +1,25 @@
+{
+  "name": "panode",
+  "version": "0.1.0",
+  "author": "Stef van den Ham <stef@mindthecode.com>",
+  "description": "A NodeJS module to generate Google Streetview Panoramas for a given lat / lon, using Hugin",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Hyra/panode.git"
+  },
+  "keywords": [
+    "cli",
+    "pano",
+    "panorama",
+    "google",
+    "streetview"
+  ],
+  "dependencies": {
+    "exec-plan": "*",
+    "request": "*"
+  },
+  "license": "MIT",
+  "engines": {
+    "node": ">=0.8"
+  }
+}
