@@ -1,8 +1,25 @@
 # Panode
 
-Generates Google Streetview Panoramas for a given lat / lon
+A NodeJS module to generate Google Streetview Panoramas for a given lat / lon, using Hugin.
+
+## Panoramas
+
+![Example 1](/pano_examples/01.jpg)
+![Example 2](/pano_examples/02.jpg)
+![Example 3](/pano_examples/03.jpg)
 
 ## Installation
+
+We depend on the crossplatform [Hugin](http://hugin.sourceforge.net) command line software, which you can find [here](http://hugin.sourceforge.net).
+
+Make sure you add the paths to your environment, so node can find it. On my Mac I had to add the following to my environment variables:
+
+```
+export PATH=$PATH:/Applications/Hugin/HuginTools
+export PATH=$PATH:/Applications/Hugin/Hugin.app/Contents/MacOS
+```
+
+Next, simply install the NPM module:
 
 ```
 npm install panode
